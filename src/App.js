@@ -65,7 +65,7 @@ class App extends Component {
     return (
       <div className="App">
         
-        <input type="text" onChange={this.userNameChangeListener}/>
+        <input type="text" onChange={this.userNameChangeListener} value={this.state.text}/>
         <br/>
         {charLengthParagraph}
         <br/>
